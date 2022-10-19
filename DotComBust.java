@@ -54,7 +54,7 @@ public class DotComBust {
 				System.out.println(" You got out before your options sank.");
 			} else {
 				System.out.println("Took you long enough. " + numOfGuesses + " guesses.");
-				System.out.println("Finish are dancing with your options");
+				System.out.println("Fish are dancing with your options");
 			}
 		}
 		public static void main (String [] args){

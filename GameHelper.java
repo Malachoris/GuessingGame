@@ -1,5 +1,3 @@
-//package chap05;
-
 import java.io.*;
 import java.util.*;
 
@@ -16,8 +14,7 @@ public class GameHelper {
      String inputLine = null;
      System.out.print(prompt + "  ");
      try {
-       BufferedReader is = new BufferedReader(
-	 new InputStreamReader(System.in));
+       BufferedReader is = new BufferedReader(new InputStreamReader(System.in));
        inputLine = is.readLine();
        if (inputLine.length() == 0 )  return null; 
      } catch (IOException e) {
